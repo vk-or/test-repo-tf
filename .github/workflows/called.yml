@@ -9,6 +9,7 @@ on:
 
 jobs:
   print-config-path:
+    name: Print config path
     runs-on: ubuntu-latest
     steps:
       - name: Print config path
