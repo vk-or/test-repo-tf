@@ -5,7 +5,7 @@ on:
 
 jobs:
   example_matrix:
-    name: Example matrix
+    name: Example Matrix
     strategy:
       matrix:
         version: [10, 12, 14]
