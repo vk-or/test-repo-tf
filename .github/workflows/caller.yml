@@ -1,0 +1,11 @@
+name: Call a reusable workflow
+
+on:
+  pull_request
+
+jobs:
+  call-workflow:
+    uses: ./.github/workflows/called.yml
+    with:
+      config-path: .github/labeler.yml
+
